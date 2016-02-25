@@ -1,5 +1,4 @@
-# Codebase 
-# v0.1
+# Codebase v0.1
 Simple code base for developing or just trying out some html+css+js applications.
 ## Installation
 ###Install
