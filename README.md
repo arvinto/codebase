@@ -1,7 +1,7 @@
 # Codebase v0.1
 No need to hit F5. Simple code base with auto-reload for developing or just trying out some html+css+js applications.
 ## Installation
-###Install
+###Install Dependencies
 ```
 npm install
 ```
