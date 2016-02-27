@@ -1,5 +1,5 @@
 # Codebase v0.1
-Simple code base for developing or just trying out some html+css+js applications.
+No need to hit F5. Simple code base with auto-reload for developing or just trying out some html+css+js applications.
 ## Installation
 ###Install
 ```
@@ -10,7 +10,8 @@ npm install
 gulp codebase-serve
 ```
 ## Usage
-Create a simple directory with browserSync for easy webserver and watching+live reload.
+Creates a simple directory with browserSync for easy webserver and watching+live reload.
+Install nodejs to get npm: [Node.js](https://nodejs.org/en/)
 ## Contributing
 TODO: Write contributing
 ## History
