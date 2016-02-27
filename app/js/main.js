@@ -1,1 +1,3 @@
-haha
+/*
+* Main JS File
+*/

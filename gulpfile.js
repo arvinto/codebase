@@ -3,11 +3,11 @@
 *   Uses browserSync for watching and live reloading on different browser
 *
 *   Additional Utils:
-*   
+*
 */
 
 var browserSync = require('browser-sync');
-var gulp        = require('gulp'),
+    gulp        = require('gulp'),
     gutil       = require('gulp-util');
 
 /*
@@ -17,15 +17,10 @@ var gulp        = require('gulp'),
 // gulp.task('default', ['codebase-serve']);
 
 gulp.task('codebase-serve', function(){
-    
      browserSync({
+        files: ["app/css/*.css", "app/js/*.js", "app/*.html", "app/*.php", "app/bs/*.html", "app/bs/*.php" ],
         server: {
-            baseDir: "app" // Change this to your web root dir
+            baseDir: "app"
         }
     });
-    
-    gulp.watch('./**/*.js').on('change', browserSync.reload);
-    gulp.watch('./**/*.css').on('change', browserSync.reload);
-    gulp.watch('./**/*.html').on('change', browserSync.reload);
-    gulp.watch('./**/*.php').on('change', browserSync.reload);
 });
