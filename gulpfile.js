@@ -14,7 +14,7 @@ var browserSync = require('browser-sync');
 *  Define the default
 *  Uncomment if it is the only default gulp task on the workspace
 */
-// gulp.task('default', ['codebase-serve']);
+gulp.task('default', ['codebase-serve'])
 
 gulp.task('codebase-serve', function(){
      browserSync({
